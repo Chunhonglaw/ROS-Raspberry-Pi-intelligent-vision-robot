@@ -7,7 +7,7 @@ from std_msgs.msg import String
 class MinimalPublisher(Node):
 
     def __init__(self):
-        super().__init__('minimal_publisher1')  
+        super().__init__('rpi_publisher1')  
         #node name dans ros2 node list est: minimal_publihser ******************
         self.publisher_ = self.create_publisher(String, 'topic', 10)
         timer_period = 0.1  # seconds
