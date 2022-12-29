@@ -8,5 +8,6 @@ contain some good projets
     publisher
     subscriber
     new node
+    change node name
     
     
