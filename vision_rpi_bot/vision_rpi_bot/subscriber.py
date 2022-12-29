@@ -7,10 +7,10 @@ from std_msgs.msg import String
 class MinimalSubscriber(Node):
 
     def __init__(self):
-        super().__init__('pc_subscriber')
+        super().__init__('pc_subscriber_1')# node name dans ros2 node list est: pc_subscriber_1 *******
         self.subscription = self.create_subscription(
             String,
-            'topic',
+            'topic',  #nom du topic avec ros2 topic list
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
