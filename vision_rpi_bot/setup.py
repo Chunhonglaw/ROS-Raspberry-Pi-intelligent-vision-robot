@@ -20,9 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'chun_publihser_node = vision_rpi_bot.publisher:main',
+                'chun_publihser_node = vision_rpi_bot.publisher:main',  #c est le nom du programme avec la commande run
                 'chun_subscriber_node = vision_rpi_bot.subscriber:main',
-                # = package name.file name
+                # =package name du fichier py
                 
         ],
     },
