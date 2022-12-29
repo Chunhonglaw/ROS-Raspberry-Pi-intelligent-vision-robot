@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-                'chun_publihser_node = vision_rpi_bot.publisher:main',  #c est le nom du programme avec la commande ros2 run vision_rpi_bot chun_publisher_node
-                'chun_subscriber_node = vision_rpi_bot.subscriber:main',
+                'publihser_node_pc_1 = vision_rpi_bot.publisher:main',  #c est le nom du programme avec la commande ros2 run vision_rpi_bot chun_publisher_node
+                'subscriber_node_pc_1 = vision_rpi_bot.subscriber:main',
                 # =package name du fichier py
                 
         ],
